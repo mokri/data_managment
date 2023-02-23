@@ -3,25 +3,15 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 import warnings
-
-import leafmap as leafmap
-
 warnings.simplefilter(action='ignore', category=FutureWarning)
 import streamlit as st
 import pandas as pd
 import numpy as np
-from streamlit_card import card
 import streamlit_tags
 from streamlit_option_menu import option_menu
 from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode, AgGridTheme
 from streamlit_pandas_profiling import st_profile_report
-from pandas_profiling import ProfileReport
 import altair as alt
-import matplotlib.pyplot as plt
-import pydeck as pdk
-import leafmap.foliumap as leafmap
-import altair as alt
-from vega_datasets import data
 
 st.set_page_config(layout="wide")
 # Firebase Authentication
